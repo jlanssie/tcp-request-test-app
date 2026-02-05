@@ -22,6 +22,7 @@
     "prettier:check": "prettier --check ."
   },
   "devDependencies": {
+    "@types/node": "^25.2.1",
     "prettier": "^3.6.2"
   }
 }
