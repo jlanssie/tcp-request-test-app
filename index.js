@@ -1,21 +1,12 @@
 import net from 'node:net';
 
-const OPTIONS = {
-  host: '127.0.0.1',
-  port: 61616,
-  timeout: 5000,
-};
-
-const payload = {
-  header: 'AUTH_KEY_123',
-  command: 'GET_DATA',
-  body: 'Hello Server!',
-};
+import config from './config.json' with { type: 'json' };
+import payload from './payload.json' with { type: 'json' };
 
 const client = new net.Socket();
 
-client.connect(OPTIONS.port, OPTIONS.host, () => {
-  console.log(`✅ Connected to ${OPTIONS.host}:${OPTIONS.port}`);
+client.connect(config.port, config.host, () => {
+  console.log(`✅ Connected to ${config.host}:${config.port}`);
 
   const message = JSON.stringify(payload);
   client.write(message);
