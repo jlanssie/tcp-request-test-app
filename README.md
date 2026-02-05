@@ -1,14 +1,22 @@
-# Template
+# TCP Request Test App
 
-A repository template for creating new projects.
+A Node.js app that makes TCP requests for testing purposes.
 
 ## Installation
 
-This is a template repository and cannot be installed.
+Install with NPM:
+
+```shell
+npm run i
+```
 
 ## Usage
 
-Select this repository as a template when creating a new GitHub repository.
+Use with NPM:
+
+```shell
+npm run start
+```
 
 ## Contributing
 
