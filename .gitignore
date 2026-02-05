@@ -150,3 +150,7 @@ vite.config.ts.timestamp-*
 
 # OS
 .DS_Store
+
+# Project
+payload.json
+config.json
