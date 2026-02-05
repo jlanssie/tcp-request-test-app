@@ -23,8 +23,5 @@
   },
   "devDependencies": {
     "prettier": "^3.6.2"
-  },
-  "dependencies": {
-    "net": "^1.0.2"
   }
 }

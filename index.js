@@ -1,4 +1,4 @@
-import net from 'net';
+import net from 'node:net';
 
 const OPTIONS = {
   host: '127.0.0.1',
