@@ -1,0 +1,30 @@
+{
+  "name": "tcp-request-test-app",
+  "version": "1.0.0",
+  "description": "A Node.js app that makes TCP requests for testing purposes.",
+  "homepage": "https://github.com/jlanssie/tcp-request-test-app#readme",
+  "bugs": {
+    "url": "https://github.com/jlanssie/tcp-request-test-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlanssie/tcp-request-test-app.git"
+  },
+  "license": "GPL-3.0-or-later",
+  "author": "Jeremy Lanssiers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "format": "npm run prettier",
+    "prettier": "prettier --write . --log-level silent",
+    "prettier:verbose": "prettier --write .",
+    "prettier:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "net": "^1.0.2"
+  }
+}
