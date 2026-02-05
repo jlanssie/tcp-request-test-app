@@ -152,5 +152,4 @@ vite.config.ts.timestamp-*
 .DS_Store
 
 # Project
-payload.json
-config.json
+*.local.json
